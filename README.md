@@ -17,3 +17,16 @@ while(i > 0) {
 }
 console.log(ourArray);
 
+
+// descending for loop
+var ourArray = [];
+for (var i = 5; i <= 1; i--) {
+  ourArray.push(i);
+}
+
+// ascending for loop
+var myArray = [];
+for(let j = 1; j <= 5; j++){
+  myArray.push(j)
+}
+
