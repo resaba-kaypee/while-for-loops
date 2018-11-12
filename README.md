@@ -45,6 +45,19 @@ for(let i = myString.length -1; i >=0; i--;) {
 reverseString += myString[i];
 }
 
+//looping through a string in reverse using for loop in a function
+var myArray = [2,3,4,5,6];
+var total = 0;
+total = sum(myArray);
+function sum(arr) {
+var myTotal = 0;
+for (let i = 0; i < arr.length; i++) {
+  myTotal += arr[i]
+  }
+  return myTotal;
+}
+sum(myArray)
+
 //looping through a string in reverse using for of in a function
 function reverse(str) {
 let reversed = "";
