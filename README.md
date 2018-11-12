@@ -58,6 +58,17 @@ for (let i = 0; i < arr.length; i++) {
 }
 sum(myArray)
 
+//nesting for loops
+function multiplyAll(arr){
+let product = 1;
+for(let i = 0; i < arr.length; i++) {
+  for(let j = 0; j < arr[i].length; j++) {
+  product *= arr[i][j];
+    }
+  }
+  return product
+}
+
 //looping through a string in reverse using for of in a function
 function reverse(str) {
 let reversed = "";
