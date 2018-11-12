@@ -38,10 +38,18 @@ for(let i = 0; i < myArray.length; i++){
 total += myArray[i]
 }
 
-//looping through a string in reverse usng for loop
+//looping through a string in reverse using for loop
 var myString = "esreveR";
 var reverseString = "";
 for(let i = myString.length -1; i >=0; i--;) {
 reverseString += myString[i];
 }
 
+//looping through a string in reverse using for of in a function
+function reverse(str) {
+let reversed = "";
+for(let char of str){
+reversed = char + reversed //its needed
+  }
+return reversed
+}
