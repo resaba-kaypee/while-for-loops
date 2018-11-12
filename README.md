@@ -30,3 +30,11 @@ for(let j = 1; j <= 5; j++){
   myArray.push(j)
 }
 
+
+//looping through an array
+var myArray = [2,3,4,5,6]
+var total = 0;
+for(let i = 0; i < myArray.length; i++){
+total += myArray[i]
+}
+
