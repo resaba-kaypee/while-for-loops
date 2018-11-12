@@ -31,10 +31,17 @@ for(let j = 1; j <= 5; j++){
 }
 
 
-//looping through an array
+//looping through an array using for loop
 var myArray = [2,3,4,5,6]
 var total = 0;
 for(let i = 0; i < myArray.length; i++){
 total += myArray[i]
+}
+
+//looping through a string in reverse usng for loop
+var myString = "esreveR";
+var reverseString = "";
+for(let i = myString.length -1; i >=0; i--;) {
+reverseString += myString[i];
 }
 
