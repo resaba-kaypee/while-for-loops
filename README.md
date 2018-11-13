@@ -77,3 +77,15 @@ reversed = char + reversed //its needed
   }
 return reversed
 }
+
+// do while loop
+var myArr = []
+var i = 10;
+
+do {
+myArr.push(i);
+i++;
+  } while (i < 5)
+  
+  
+  
